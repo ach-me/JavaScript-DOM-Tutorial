@@ -2,7 +2,6 @@
 // Si el archivo js se carga antes de cargar el DOM, se agrega un evento al documento que espera que se cargue el DOM antes de cargar el archivo js
 
 document.addEventListener('DOMContentLoaded', () => {
-
   // Delete books
   const list = document.querySelector('#book-list ul');
 
